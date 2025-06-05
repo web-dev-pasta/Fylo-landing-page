@@ -92,7 +92,8 @@ body {
   align-items: center;
   padding-inline: 40px;
   height: 120px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  background-color: var(--navy-850);
 }
 .header .image img {
   width: 150px;
@@ -112,7 +113,12 @@ body {
 }
 .landing {
   text-align: center;
-  margin-inline: 15px;
+  background-color: var(--navy-850);
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 200px;
+  padding-bottom: var(--section-padding);
 }
 .landing .image {
   display: inline-block;
@@ -131,6 +137,9 @@ body {
 }
 .services {
   padding-block: var(--section-padding);
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-size: cover;
+  background-position: 50px;
 }
 .services .container {
   display: grid;
@@ -439,6 +448,9 @@ body {
   }
   .barrier .content {
     padding: 40px 30px;
+  }
+  .landing {
+    background-image: url(images/bg-curvy-mobile.svg);
   }
   .landing .text p.large {
     font-size: 20px;
