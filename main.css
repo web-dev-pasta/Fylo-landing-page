@@ -440,4 +440,10 @@ body {
   .barrier .content {
     padding: 40px 30px;
   }
+  .landing .text p.large {
+    font-size: 20px;
+  }
+  .landing .text p.large br {
+    display: none;
+  }
 }
